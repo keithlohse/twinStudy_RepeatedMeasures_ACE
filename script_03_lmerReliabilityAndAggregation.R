@@ -4,7 +4,7 @@ library(lme4); library(lmerTest)
 
 
 # 2. Format data and check distributions ----
-setwd("C:/Users/kelop/Box/Infant Motor R01/WU Only Infant Motor R01/MZ-DZ_Comparisons/MzDz_Twins/accel_heritability_2026_02_11")
+setwd("C:/Users/user/Box/Infant Motor R01/WU Only Infant Motor R01/MZ-DZ_Comparisons/MzDz_Twins/accel_heritability_2026_02_11")
 list.files()
 
 DATA <- read.csv("data_accelClean2026-03-11.csv", header=TRUE,
@@ -183,7 +183,7 @@ for (v in dynamic_vars) {
 }
 
 getwd()
-setwd("C:/Users/kelop/Box/Infant Motor R01/WU Only Infant Motor R01/MZ-DZ_Comparisons/MzDz_Twins/accel_heritability_2026_02_11")
+setwd("C:/Users/user/Box/Infant Motor R01/WU Only Infant Motor R01/MZ-DZ_Comparisons/MzDz_Twins/accel_heritability_2026_02_11")
 
 
 
@@ -251,7 +251,7 @@ for (v in dynamic_vars) {
 }
 
 getwd()
-setwd("C:/Users/kelop/Box/Infant Motor R01/WU Only Infant Motor R01/MZ-DZ_Comparisons/MzDz_Twins/accel_heritability_2026_02_11")
+setwd("C:/Users/user/Box/Infant Motor R01/WU Only Infant Motor R01/MZ-DZ_Comparisons/MzDz_Twins/accel_heritability_2026_02_11")
 
 
 

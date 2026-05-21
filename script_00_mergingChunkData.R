@@ -8,7 +8,7 @@ library("tidyverse")
 # to aggregate. E.g., here is my "dummy" GitHub folder with a similar file 
 # structure: 
 # setwd("~/GitHub/accelerometry_R01")
-setwd("C:/Users/lohse/Box/Infant Motor R01/WU Only Infant Motor R01/ProcessedData/Aim1/")
+setwd("C:/Users/user/Box/Infant Motor R01/WU Only Infant Motor R01/ProcessedData/Aim1/")
 
 
 # Replacing the loop below with a recursive search
@@ -158,7 +158,7 @@ MASTER <- MASTER %>% relocate(file_id, record_id, family_id, child_id,
                     redcap_event_name, .before=chunk)
 
 # Set the working directory to where you want to save the output file:
-setwd("C:/Users/lohse/Box/Infant Motor R01/WU Only Infant Motor R01/MZ-DZ_Comparisons/MzDz_Twins/accel_heritability_2026_02_11/")
+setwd("C:/Users/user/Box/Infant Motor R01/WU Only Infant Motor R01/MZ-DZ_Comparisons/MzDz_Twins/accel_heritability_2026_02_11/")
 write.csv(MASTER, paste("./data_chunkAGGREGATED", Sys.Date(), ".csv", sep=""))
 
 

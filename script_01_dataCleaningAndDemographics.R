@@ -4,7 +4,7 @@ library(tidyverse)
 
 
 # 2. Format data and check distributions ----
-setwd("C:/Users/lohse/Box/Infant Motor R01/WU Only Infant Motor R01/MZ-DZ_Comparisons/MzDz_Twins/accel_heritability_2026_02_11/")
+setwd("C:/Users/user/Box/Infant Motor R01/WU Only Infant Motor R01/MZ-DZ_Comparisons/MzDz_Twins/accel_heritability_2026_02_11/")
 list.files()
 
 # Read in unlabelled data - has colnames we want from REDCAP

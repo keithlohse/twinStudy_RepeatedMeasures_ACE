@@ -1,5 +1,5 @@
 # 0. import our defined fit_h2_regress and fit_h2_regress_boot functions
-setwd("C:/Users/kelop/Box/Infant Motor R01/WU Only Infant Motor R01/MZ-DZ_Comparisons/MzDz_Twins/accel_heritability_2026_02_11/")
+setwd("C:/Users/user/Box/Infant Motor R01/WU Only Infant Motor R01/MZ-DZ_Comparisons/MzDz_Twins/accel_heritability_2026_02_11/")
 list.files()
 source("./heritability_utils.R")
 
@@ -192,7 +192,7 @@ ggplot(data=results_duration %>%
 getwd()
 ggsave(filename="./mixedEffects_ACEmod.jpeg",
        plot = last_plot(),
-       path = "C:/Users/lohse/Box/Infant Motor R01/WU Only Infant Motor R01/MZ-DZ_Comparisons/MzDz_Twins/heritability_mixedModels/plots",
+       path = "C:/Users/user/Box/Infant Motor R01/WU Only Infant Motor R01/MZ-DZ_Comparisons/MzDz_Twins/heritability_mixedModels/plots",
        width = 6,
        height = 4,
        units = "in",

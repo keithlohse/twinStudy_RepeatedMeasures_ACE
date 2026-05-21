@@ -3,7 +3,7 @@ library("irr"); library("psych"); library("tidyverse");
 library("ggpubr"); library("corrplot"); library("factoextra")
 
 # 2. Format data and check distributions ----
-setwd("C:/Users/kelop/Box/Infant Motor R01/WU Only Infant Motor R01/MZ-DZ_Comparisons/MzDz_Twins/accel_heritability_2026_02_11")
+setwd("C:/Users/user/Box/Infant Motor R01/WU Only Infant Motor R01/MZ-DZ_Comparisons/MzDz_Twins/accel_heritability_2026_02_11")
 list.files()
 
 DATA <- read.csv("data_accelClean2026-03-11.csv", header=TRUE,
@@ -398,7 +398,7 @@ ADJ_BETA <- c(NULL)
 ADJ_SE <- c(NULL)
 ADJ_P <- c(NULL)
 
-setwd("C:/Users/kelop/Box/Infant Motor R01/WU Only Infant Motor R01/MZ-DZ_Comparisons/MzDz_Twins/accel_heritability_2026_02_11/asd_associations")
+setwd("C:/Users/user/Box/Infant Motor R01/WU Only Infant Motor R01/MZ-DZ_Comparisons/MzDz_Twins/accel_heritability_2026_02_11/asd_associations")
 
 k=1
 for(v in var_list) {
@@ -550,7 +550,7 @@ ggplot(data=ASQ_RESULTS, aes(x=VAR2, y=ADJ_BETA)) +
         strip.text = element_text(size=10, face="bold"),
         legend.position = "bottom")
 
-setwd("C:/Users/kelop/Box/Infant Motor R01/WU Only Infant Motor R01/MZ-DZ_Comparisons/MzDz_Twins/accel_heritability_2026_02_11/")
+setwd("C:/Users/user/Box/Infant Motor R01/WU Only Infant Motor R01/MZ-DZ_Comparisons/MzDz_Twins/accel_heritability_2026_02_11/")
 ggsave(
   filename="./figure2A.jpeg",
   plot = last_plot(),
